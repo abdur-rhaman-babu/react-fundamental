@@ -1,9 +1,12 @@
+
+import Ternary from "./pages/Ternary"
+
 function App() {
   
 
   return (
     <>
-     <h1>React fundamental</h1>
+     <Ternary/>
     </>
   )
 }
