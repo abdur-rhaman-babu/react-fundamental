@@ -1,5 +1,6 @@
 const Ternary = () => {
     const marks = 80;
+    // const marks = prompt('enter your result')
     return (
         <div>
             {marks >= 80 ? <h1>Good Result</h1> : <h1>Bad Result</h1>}

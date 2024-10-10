@@ -1,12 +1,11 @@
-
-import Ternary from "./pages/Ternary"
+import Invoked from "./pages/Invoked"
 
 function App() {
   
 
   return (
     <>
-     <Ternary/>
+    <Invoked/>
     </>
   )
 }
