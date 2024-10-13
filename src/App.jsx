@@ -1,13 +1,11 @@
-import Invoked from "./pages/Invoked"
+import Count from "./useref/Count";
 
-function App() {
-  
-
+const App = () => {
   return (
-    <>
-    <Invoked/>
-    </>
-  )
-}
+    <div>
+        <Count/>
+    </div>
+  );
+};
 
-export default App
+export default App;
